@@ -4,10 +4,10 @@ Archivos
  -  utils.py -> contiene toda la lógica de las funciones que se utilizan en el archivo main.py
  -  request.py -> recibe la petición desde el archivo main.py para cargar los datos en la base de datos
  -  config.py -> archivo de configuración general que contiene la configuración de las variables USE_CASES, STEPS, FIELDS, MOCKUP_CLIENT, RESTRICTIONS, FORMATS
-  - config_ambulatorio.py -> archivo de configuración para el caso de uso ambulatorio (1).
-  - config_pabellon.py -> archivo de configuración para el caso de uso quirúrgico (2).
-  - config_examen -> archivo de configuración para el caso de uso exámen (6)
-  * contienen la configuración de RELATION , RELATION_FIELDS , RELATION_FIELDS_FORMATS, RELATION_FIELDS_RESTRICTION
+   - config_ambulatorio.py -> archivo de configuración para el caso de uso ambulatorio (1).
+   - config_pabellon.py -> archivo de configuración para el caso de uso quirúrgico (2).
+   - config_examen -> archivo de configuración para el caso de uso exámen (6)
+   * contienen la configuración de RELATION , RELATION_FIELDS , RELATION_FIELDS_FORMATS, RELATION_FIELDS_RESTRICTION
 
 
 Como utilizar el proyecto
