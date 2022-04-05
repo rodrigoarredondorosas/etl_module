@@ -10,14 +10,16 @@ Archivos
   * archivos que contienen la configuración de RELATION , RELATION_FIELDS , RELATION_FIELDS_FORMATS, RELATION_FIELDS_RESTRICTION
 
 
-*Como utilizar el proyecto*
+Como utilizar el proyecto
+=========================
 
 Antes de comenzar a configurar las variables, instalar las dependencias del archivo requirements.txt
 
-1 - Configurar la variable MOCKUP_CLIENT con el use_case, step, schema y excel a ejecutar.
+# 1 - Configurar la variable MOCKUP_CLIENT con el use_case, step, schema y excel a ejecutar.
 
 Por ejemplo para configurar las citas de ambulatorio sería
 
+::
 MOCKUP_CLIENT = {
     "use_case": 1,
     "step": 1,
