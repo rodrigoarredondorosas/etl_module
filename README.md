@@ -34,7 +34,7 @@ Además configurar la conexión a la base de datos, para esto revisar utils.py o
         port="5432",
     )
 
-## Si el excel ingresado en MOCKUP_CLIENT["document"] no existe, ejecutar el archivo print_excel.py para crearlo.
+Si el excel ingresado en MOCKUP_CLIENT["document"] no existe, ejecutar el archivo print_excel.py para crearlo.
 
 ## Ejecutar el archivo main.py
     - extract_from_xlsx -> extraerá los datos del archivo excel
