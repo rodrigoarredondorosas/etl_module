@@ -15,7 +15,7 @@ Como utilizar el proyecto
 
 Antes de comenzar a configurar las variables, instalar las dependencias del archivo requirements.txt
 
-1. Configurar la variable MOCKUP_CLIENT con el use_case, step, schema y excel a ejecutar.
+## Configurar la variable MOCKUP_CLIENT con el use_case, step, schema y excel a ejecutar.
 
 Por ejemplo para configurar las citas de ambulatorio sería
 
