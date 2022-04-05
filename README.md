@@ -19,8 +19,6 @@ Antes de comenzar a configurar las variables, instalar las dependencias del arch
 
 Por ejemplo para configurar las citas de ambulatorio sería
 
-.. code-block:: python
-
     MOCKUP_CLIENT = {
         "use_case": 1,
         "step": 1,
@@ -29,8 +27,6 @@ Por ejemplo para configurar las citas de ambulatorio sería
     }
 
 Además configurar la conexión a la base de datos, para esto revisar utils.py open_connection
-
-.. code-block:: python
 
     def open_connection():
         connection = db_utils.connect(
@@ -47,9 +43,9 @@ Además configurar la conexión a la base de datos, para esto revisar utils.py o
     - extract_from_xlsx -> extraerá los datos del archivo excel
     - get_relation_data -> cargará la configuración del archivo config_ambulatorio/config_pabellon/config_examen dependiendo del use_case y step de MOCKUP_CLIENT.
     - transform 
-        -> Valida que el excel no esté vacío
-        -> Valida que las columnas del excel sean las mismas que las columnas configuradas en los archivos de config_ambulatorio/config_pabellon/config_examen (revisar utils.py validate_columns)
-        -> Valida que la data cumpla con el formato solicitado (revisar utils.py clean_data)
-        -> Valida que la data exista en la base de datos para campos correspondientes a catalogos (revisar utils.py map_data)
-        -> Prepara la data para la inserción a la base de datos (revisar utils.py prepare_data_to_sql)
+        - Valida que el excel no esté vacío
+        - Valida que las columnas del excel sean las mismas que las columnas configuradas en los archivos de config_ambulatorio/config_pabellon/config_examen (revisar utils.py validate_columns)
+        - Valida que la data cumpla con el formato solicitado (revisar utils.py clean_data)
+        - Valida que la data exista en la base de datos para campos correspondientes a catalogos (revisar utils.py map_data)
+        - Prepara la data para la inserción a la base de datos (revisar utils.py prepare_data_to_sql)
    - load -> envía petición al archivo request.py con los siguientes parametros
