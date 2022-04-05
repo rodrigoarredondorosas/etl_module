@@ -7,8 +7,6 @@ Archivos
    - config_ambulatorio.py -> archivo de configuración para el caso de uso ambulatorio (1).
    - config_pabellon.py -> archivo de configuración para el caso de uso quirúrgico (2).
    - config_examen -> archivo de configuración para el caso de uso exámen (6)
-   * contienen la configuración de RELATION , RELATION_FIELDS , RELATION_FIELDS_FORMATS, RELATION_FIELDS_RESTRICTION
-
 
 Como utilizar el proyecto
 =========================
