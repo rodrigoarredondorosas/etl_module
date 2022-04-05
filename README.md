@@ -26,13 +26,13 @@ Por ejemplo para configurar las citas de ambulatorio sería
 
 Además configurar la conexión a la base de datos, para esto revisar utils.py open_connection
 
-        connection = db_utils.connect(
-            host="localhost",
-            database="medinet_testing3",
-            user="postgres",
-            password="seis123",
-            port="5432",
-        )
+    connection = db_utils.connect(
+        host="localhost",
+        database="medinet_testing3",
+        user="postgres",
+        password="seis123",
+        port="5432",
+    )
 
 ## Si el excel ingresado en MOCKUP_CLIENT["document"] no existe, ejecutar el archivo print_excel.py para crearlo.
 
