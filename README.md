@@ -15,7 +15,7 @@ Como utilizar el proyecto
 
 Antes de comenzar a configurar las variables, instalar las dependencias del archivo requirements.txt
 
-# 1 - Configurar la variable MOCKUP_CLIENT con el use_case, step, schema y excel a ejecutar.
+1. Configurar la variable MOCKUP_CLIENT con el use_case, step, schema y excel a ejecutar.
 
 Por ejemplo para configurar las citas de ambulatorio sería
 
@@ -27,7 +27,7 @@ MOCKUP_CLIENT = {
     "document": "excel_citas.xlsx",
 }
 
-*Además configurar la conexión a la base de datos, para esto revisar utils.py open_connection*
+Además configurar la conexión a la base de datos, para esto revisar utils.py open_connection
 
 def open_connection():
     connection = db_utils.connect(
@@ -40,9 +40,9 @@ def open_connection():
 
     return connection
 
-2 - Si el excel ingresado en MOCKUP_CLIENT["document"] no existe, ejecutar el archivo print_excel.py para crearlo.
+2. Si el excel ingresado en MOCKUP_CLIENT["document"] no existe, ejecutar el archivo print_excel.py para crearlo.
 
-3 - Ejecutar el archivo main.py
+3. Ejecutar el archivo main.py
     3.1 extract_from_xlsx -> extraerá los datos del archivo excel
     3.2 get_relation_data -> cargará la configuración del archivo config_ambulatorio/config_pabellon/config_examen dependiendo del use_case y step de MOCKUP_CLIENT.
     3.3 transform 
