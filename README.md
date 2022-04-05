@@ -26,7 +26,6 @@ Por ejemplo para configurar las citas de ambulatorio sería
 
 Además configurar la conexión a la base de datos, para esto revisar utils.py open_connection
 
-    def open_connection():
         connection = db_utils.connect(
             host="localhost",
             database="medinet_testing3",
