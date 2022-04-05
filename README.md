@@ -37,9 +37,9 @@ Además configurar la conexión a la base de datos, para esto revisar utils.py o
 Si el excel ingresado en MOCKUP_CLIENT["document"] no existe, ejecutar el archivo print_excel.py para crearlo.
 
 ## Ejecutar el archivo main.py
-    - extract_from_xlsx -> extraerá los datos del archivo excel
-    - get_relation_data -> cargará la configuración del archivo config_ambulatorio/config_pabellon/config_examen dependiendo del use_case y step de MOCKUP_CLIENT.
-    - transform 
+   - extract_from_xlsx -> extraerá los datos del archivo excel
+   - get_relation_data -> cargará la configuración del archivo config_ambulatorio/config_pabellon/config_examen dependiendo del use_case y step de MOCKUP_CLIENT.
+   - transform 
         - Valida que el excel no esté vacío
         - Valida que las columnas del excel sean las mismas que las columnas configuradas en los archivos de config_ambulatorio/config_pabellon/config_examen (revisar utils.py validate_columns)
         - Valida que la data cumpla con el formato solicitado (revisar utils.py clean_data)
